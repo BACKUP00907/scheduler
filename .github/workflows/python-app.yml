@@ -33,4 +33,4 @@ jobs:
         
     - name: runresetter
       run: |
-        sudo python3 rstk.py
+        sudo chromium-browser https://strmltpym1.streamlit.app/
