@@ -5,6 +5,8 @@ name: Python application
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron:  '30 * * * *'
   
 
 permissions:
