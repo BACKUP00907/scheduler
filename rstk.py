@@ -9,3 +9,4 @@ while k < len(url):
   webbrowser.open(url[k])
   time.sleep(120)
   k+=1
+print("done resetting network")
