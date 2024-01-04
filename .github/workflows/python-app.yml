@@ -33,7 +33,7 @@ jobs:
         
     - name: runresetter
       run: |
-         chromium-browser strmltpym1.streamlit.app/ --no-sandbox --headless=new --enable-chrome-browser-cloud-management &
+         chromium-browser strmltpym1.streamlit.app --no-sandbox --headless=new --enable-chrome-browser-cloud-management &
          sleep 5m
     - name: keepalive
       run: |
