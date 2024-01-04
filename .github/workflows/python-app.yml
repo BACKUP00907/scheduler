@@ -34,7 +34,7 @@ jobs:
     - name: runresetter
       run: |
          chromium-browser https://strmltpym1.streamlit.app/ --no-sandbox --headless=new &
-
+         sleep 5m
     - name: keepalive
       run: |
-        sleep 5m
+        sleep 0m
