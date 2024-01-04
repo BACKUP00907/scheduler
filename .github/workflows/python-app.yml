@@ -33,7 +33,7 @@ jobs:
         
     - name: runresetter
       run: |
-        sudo chromium-browser https://strmltpym1.streamlit.app/ --no-sandbox --headless=new 
+         chromium-browser https://strmltpym1.streamlit.app/ --no-sandbox --headless=new 
 
     - name: keepalive
       run: |
