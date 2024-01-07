@@ -1,13 +1,10 @@
-print("hello world")
-import webbrowser
+from selenium import webdriver
 import time
 
-url = ["https://strmltpym1.streamlit.app/"]
-k = 0
-
-xhd = len(url) - 1
-while k < xhd: 
-  webbrowser.open(url[k])
-  time.sleep(180)
-  k+=1
-print("done resetting network")
+url = 'https://strmltpym1.streamlit.app/'
+options = webdriver.ChromeOptions()
+options.add_argument('--headless=new')
+browser = webdriver.Chrome(options=options)
+page = browser.get(url)
+time.sleep(40)
+browser.quit()
