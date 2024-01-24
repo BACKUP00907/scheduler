@@ -37,4 +37,4 @@ jobs:
       
          #sudo python3 rstk.py
          chromium-browser strmltpym1.streamlit.app --no-sandbox --headless=new --enable-chrome-browser-cloud-management &
-         sleep 2m
+         sleep 5m
